@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Cuisine</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9e6f2; /* Light pink background */
+            color: #333;
+        }
+        header {
+            background-color: #f2a7ca; /* Light pink header */
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #f2c1d9; /* Lighter pink for nav */
+            overflow: hidden;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            display: inline-block;
+        }
+        nav a:hover {
+            background-color: #f29bc1; /* Darker pink on hover */
+        }
+        .container {
+            width: 80%;
+            margin: 20px auto;
+        }
+        .section-title {
+            color: #5c5c5c;
+            font-size: 2em;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .section-content {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+        .cuisine-card {
+            background-color: #ffffff;
+            padding: 20px;
+            margin: 10px;
+            width: 30%;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            transition: transform 0.3s ease; /* Add a smooth hover effect */
+        }
+        .cuisine-card:hover {
+            transform: scale(1.05); /* Slightly enlarge on hover */
+        }
+        .cuisine-card h3 {
+            text-align: center;
+            color: #f28fb1; /* Darker pink for titles */
+        }
+        .cuisine-card img {
+            width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        footer {
+            background-color: #f2a7ca; /* Light pink footer */
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to World Cuisine</h1>
+        <p>Explore the flavors of the world!</p>
+    </header>
+
+    <!-- Navigation Section -->
+    <nav>
+        <a href="#italian">Italian Cuisine</a>
+        <a href="#indian">Indian Cuisine</a>
+        <a href="#chinese">Chinese Cuisine</a>
+    </nav>
+
+    <!-- Main Content Section -->
+    <div class="container">
+        <!-- Italian Cuisine Section -->
+        <section id="italian">
+            <div class="section-title">Italian Cuisine</div>
+            <div class="section-content">
+                <div class="cuisine-card">
+                    <h3>Pizza</h3>
+                    <img src="https://via.placeholder.com/300x200.png?text=Pizza" alt="Pizza">
+                    <p>Enjoy authentic wood-fired pizza with fresh mozzarella and basil!</p>
+                </div>
+                <div class="cuisine-card">
+                    <h3>Pasta</h3>
+                    <img src="https://via.placeholder.com/300x200.png?text=Pasta" alt="Pasta">
+                    <p>Classic pasta dishes like Spaghetti Carbonara and Lasagna.</p>
+                </div>
+                <div class="cuisine-card">
+                    <h3>Gelato</h3>
+                    <img src="https://via.placeholder.com/300x200.png?text=Gelato" alt="Gelato">
+                    <p>Indulge in creamy, flavorful Italian ice cream.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Indian Cuisine Section -->
+        <section id="indian">
+            <div class="section-title">Indian Cuisine</div>
+            <div class="section-content">
+                <div class="cuisine-card">
+                    <h3>Butter Chicken</h3>
+                    <img src="https://via.placeholder.com/300x200.png?text=Butter+Chicken" alt="Butter Chicken">
+                    <p>A creamy and flavorful curry that’s a staple in Indian cuisine.</p>
+                </div>
+                <div class="cuisine-card">
+                    <h3>Biryani</h3>
+                    <img src="https://via.placeholder.com/300x200.png?text=Biryani" alt="Biryani">
+                    <p>A fragrant and spicy rice dish with marinated meat.</p>
+                </div>
+                <div class="cuisine-card">
+                    <h3>Samosa</h3>
+                    <img src="https://via.placeholder.com/300x200.png?text=Samosa" alt="Samosa">
+                    <p>Delicious fried pastries filled with spicy vegetables or meat.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Chinese Cuisine Section -->
+        <section id="chinese">
+            <div class="section-title">Chinese Cuisine</div>
+            <div class="section-content">
+                <div class="cuisine-card">
+                    <h3>Sweet and Sour Pork</h3>
+                    <img src="https://via.placeholder.com/300x200.png?text=Sweet+and+Sour+Pork" alt="Sweet and Sour Pork">
+                    <p>A delightful combination of sweet, sour, and savory flavors.</p>
+                </div>
+                <div class="cuisine-card">
+                    <h3>Dumplings</h3>
+                    <img src="https://via.placeholder.com/300x200.png?text=Dumplings" alt="Dumplings">
+                    <p>Steamed or fried dumplings filled with meat or vegetables.</p>
+                </div>
+                <div class="cuisine-card">
+                    <h3>Kung Pao Chicken</h3>
+                    <img src="https://via.placeholder.com/300x200.png?text=Kung+Pao+Chicken" alt="Kung Pao Chicken">
+                    <p>A spicy and savory stir-fry dish with chicken, peanuts, and chili peppers.</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 World Cuisine. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
